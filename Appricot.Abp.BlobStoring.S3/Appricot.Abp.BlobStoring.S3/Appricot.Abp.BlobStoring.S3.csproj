@@ -1,0 +1,28 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <GenerateAssemblyConfigurationAttribute>false</GenerateAssemblyConfigurationAttribute>
+    <GenerateAssemblyCompanyAttribute>false</GenerateAssemblyCompanyAttribute>
+    <GenerateAssemblyProductAttribute>false</GenerateAssemblyProductAttribute>
+    <RootNamespace />
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <LangVersion>latest</LangVersion>
+    <Version>1.0.1</Version>
+    <NoWarn>$(NoWarn);CS1591</NoWarn>
+    <AbpProjectType>ms</AbpProjectType>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Authors>Andrey Solovyov</Authors>
+    <Company>appricot</Company>
+    <Description>S3 compatible storage provider module for ABP Framework.</Description>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Volo.Abp.BlobStoring" Version="5.2.2" />
+    <PackageReference Include="Volo.Abp.Caching" Version="5.2.2" />
+    <PackageReference Include="AWSSDK.S3" Version="3.7.9.30" />
+  </ItemGroup>
+
+</Project>
