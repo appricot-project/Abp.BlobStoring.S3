@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32407.343
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Appricot.Abp.BlobStoring.S3", "Appricot.Abp.BlobStoring.S3\Appricot.Abp.BlobStoring.S3.csproj", "{91DC5244-0372-4293-9FDF-185CD417946B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{91DC5244-0372-4293-9FDF-185CD417946B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{91DC5244-0372-4293-9FDF-185CD417946B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{91DC5244-0372-4293-9FDF-185CD417946B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{91DC5244-0372-4293-9FDF-185CD417946B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {54814962-1FE1-47B9-BC0B-4083BD344C1D}
+	EndGlobalSection
+EndGlobal
